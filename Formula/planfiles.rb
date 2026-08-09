@@ -1,20 +1,20 @@
-# Rendered by .github/workflows/release-plan.yml on each plan-v* release and
-# pushed to planfiles/homebrew-tap as Formula/planfiles.rb. Placeholders:
-# 0.1.0, 032478cac08d2b933d48549e4a2b607bc991f75b8c49a4f60aabda89a004e0ce, 5c3d54b516280b02b6f725dd9ba077af4663d1379cb5700db714eb61721c34b2.
+# Rendered from .github/homebrew/planfiles.rb.tmpl in the planfiles source
+# repo by the release workflow, which substitutes the version and per-arch
+# sha256 tokens — edit the template there, never this file.
 class Planfiles < Formula
   desc "Plain-text .plan files with a daily Focus / Plan / Log page"
   homepage "https://planfiles.sh"
-  version "0.1.0"
+  version "0.2.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.1.0/plan-aarch64-apple-darwin.tar.gz"
-      sha256 "032478cac08d2b933d48549e4a2b607bc991f75b8c49a4f60aabda89a004e0ce"
+      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.2.0/plan-aarch64-apple-darwin.tar.gz"
+      sha256 "c8af423e2eec619f772b8fdc787616f6b9b50da066d6d4340347158c05dc5d18"
     end
     on_intel do
-      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.1.0/plan-x86_64-apple-darwin.tar.gz"
-      sha256 "5c3d54b516280b02b6f725dd9ba077af4663d1379cb5700db714eb61721c34b2"
+      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.2.0/plan-x86_64-apple-darwin.tar.gz"
+      sha256 "238a93959d7a5b2cdcdd56b54277f1e0065e230bb7e76b6502335b8b7e49fce8"
     end
   end
 
