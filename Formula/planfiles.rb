@@ -4,17 +4,17 @@
 class Planfiles < Formula
   desc "Plain-text .plan files with a daily Focus / Plan / Log page"
   homepage "https://planfiles.sh"
-  version "0.2.0"
+  version "0.3.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.2.0/plan-aarch64-apple-darwin.tar.gz"
-      sha256 "c8af423e2eec619f772b8fdc787616f6b9b50da066d6d4340347158c05dc5d18"
+      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.3.0/plan-aarch64-apple-darwin.tar.gz"
+      sha256 "02cb9ddb22f1e28fcb920ae1f630e01666b6cb462bf92e9aa39c1ff177549227"
     end
     on_intel do
-      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.2.0/plan-x86_64-apple-darwin.tar.gz"
-      sha256 "238a93959d7a5b2cdcdd56b54277f1e0065e230bb7e76b6502335b8b7e49fce8"
+      url "https://github.com/planfiles/homebrew-tap/releases/download/plan-v0.3.0/plan-x86_64-apple-darwin.tar.gz"
+      sha256 "628f16c4ec26abc3772f13789b76fb53827dc674f976d6ac8b3be8cf04da2e2f"
     end
   end
 
